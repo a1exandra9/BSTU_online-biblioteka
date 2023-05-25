@@ -1,0 +1,132 @@
+.calc {
+    margin: 15px auto 30px auto;
+    position: relative;
+    z-index: 2000;
+}
+
+.calc__container {
+    max-width: 1000px;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    margin: 0 auto;
+    color: #000;
+}
+
+.calc__menu {
+    padding: 24px 25px 10px 22px;
+    @include flex (space-between, center, nowrap);
+    border-bottom: 3px solid rgba(0, 0, 0, 1);
+}
+
+.calc__title {
+    @include font (500, 28px, 34px);
+    color: #000;
+}
+
+.calc__title-1 {
+    width: 310px;
+    padding: 0 0px 0px 2px;
+    color: #000;
+}
+
+.calc__title-2 {
+    width: 118px;
+    text-align: center;
+    color: #000;
+}
+
+.calc__title-3 {
+    width: 206px;
+    padding: 0 2px 0 0;
+    text-align: center;
+    color: #000;
+}
+
+.calc__title-4 {
+    width: 181px;
+    padding: 0 4px 0 0;
+    text-align: center;
+    color: #000;
+}
+@media (max-width: 900px) {
+    .calc {
+        margin: 23px auto 41px auto;
+    }
+
+    .calc__container {
+        max-width: 746px;
+    }
+
+    .calc__menu {
+        padding: 15px 13px 12px 17px;
+    }
+
+    .calc__title {
+        @include font (500, 20px, 24px);
+        color: #000;
+    }
+
+    .calc__title-1 {
+        width: 271px;
+        padding: 0;
+    }
+
+    .calc__title-2 {
+        width: 88px;
+        text-align: center;
+    }
+
+    .calc__title-3 {
+        width: 159px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .calc__title-4 {
+        width: 114px;
+        padding: 0;
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    .calc {
+        margin: 15px auto 19px auto;
+    }
+
+    .calc__container {
+        max-width: 316px;
+        border-radius: 12px;
+    }
+
+    .calc__menu {
+        padding: 12px 8px 3px 4px;
+    }
+
+    .calc__title {
+        @include font (500, 12px, 15px);
+        color: #000;
+    }
+
+    .calc__title-1 {
+        width: 88px;
+        padding: 0 0px 0px 2px;
+    }
+
+    .calc__title-2 {
+        width: 34px;
+        padding: 0px 0 0px 2px;
+        text-align: center;
+    }
+
+    .calc__title-3 {
+        width: 72px;
+        padding: 0 0px 0 1px;
+        text-align: center;
+    }
+
+    .calc__title-4 {
+        width: 66px;
+        padding: 0 4px 0 0;
+        text-align: center;
+    }
+}

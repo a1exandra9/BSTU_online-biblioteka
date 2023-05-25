@@ -1,0 +1,125 @@
+.footer {
+    width: 100%;
+    background: rgba(138, 234, 228, 0.21);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    opacity: 0.8;
+    margin: 0 auto;
+}
+
+.footer__width {
+    box-sizing: border-box;
+    padding: 27px 51px 27px 42px;
+    @include flex (baseline, flex-start, nowrap); 
+    gap: 0 50px;
+}
+
+.footer__avatar {
+    max-width: 186px;
+    min-height: 164px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.footer__description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer__info {
+    @include flex (space-between, flex-end, nowrap);
+}
+
+.footer__title {
+    @include font (500, 42px, 48px);
+    padding: 25px 0 0 0;
+    color: #0C3C04;
+}
+
+.footer__subtitle-tel {
+    padding: 10px 0 0 0;
+}
+
+.footer__subtitle-location {
+    padding: 6px 0 0 0;
+}
+
+.footer__links {
+    @include flex (baseline, center, nowrap);
+    gap: 0 10px;
+}
+
+.footer__img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    color: #0C3C04;
+    color: #0C3C04;
+    filter: invert(0.2) sepia(1);
+    transition: 1s all ease-out;
+    &:hover {
+        color: #ffd3a0;
+        filter: invert(0.6) sepia(1);
+    }
+}
+
+.footer__subtitle {
+    @include font (400, 18px, 22px);
+    color: #0C3C04;
+}
+@media (max-width: 900px) {
+    .footer__width {
+        padding: 47px 48px 46px 76px;
+    }
+
+    .footer__info {
+        @include flex (center, flex-start, nowrap);
+        flex-direction: column;
+        gap: 17px;
+    }
+}
+@media (max-width: 520px) {
+    .footer__width {
+        box-sizing: border-box;
+        padding: 22px 5px 37px 5px;
+        @include flex (center, center, nowrap);
+        flex-direction: column;
+        gap: 0 50px;
+    }
+
+    .footer__avatar {
+        max-width: 120px;
+        min-height: 103px;
+    }
+
+    .footer__description {
+        gap: 10px 0;
+    }
+
+    .footer__info {
+        gap: 7px;
+    }
+
+    .footer__title {
+        @include font (500, 26px, 35px);
+        margin: 0 auto;
+        padding: 6px 0 0 0;
+    }
+
+    .footer__links {
+        margin: 0 auto;
+    }
+
+    .footer__subtitle-tel {
+        padding: 1px 0 0 0;
+    }
+
+    .footer__subtitle-location {
+        padding: 5px 0 0 0;
+    }
+
+    .footer__subtitle {
+        @include font (400, 15px, 15px);
+        margin: 0 auto;
+    }
+}

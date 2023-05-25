@@ -1,0 +1,8 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="500" height="500" fill="#0071C5"/>
+  <rect x="150" y="150" width="200" height="200" fill="#FFFFFF"/>
+  <rect x="200" y="200" width="100" height="100" fill="#FDB813"/>
+  <rect x="225" y="225" width="50" height="50" fill="#0071C5"/>
+  <rect x="175" y="225" width="50" height="50" fill="#0071C5"/>
+  <text x="250" y="400" fill="#FFFFFF" font-size="70" font-weight="bold" text-anchor="middle">BSTU</text>
+</svg>

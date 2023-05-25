@@ -1,0 +1,47 @@
+
+.video__title {
+    padding: 70px 0 30px 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #0C3C04;
+}
+
+
+.video__video {
+    display: block;
+    max-width: 650px;
+    height: 450px;
+    margin: 23px 200px;
+}
+@media (max-width: 900px) {
+    .video__title {
+        padding: 27px 0 23px 0;
+    }
+
+    .eef {
+        display: block;
+        max-width: 638px;
+        height: 310px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 520px) {
+    .video__title {
+        padding: 17px 0 16px 0;
+    }
+
+    .eef {
+        display: block;
+        max-width: 320px;
+        max-height: 148px;
+        margin: 0 auto;
+        padding: 0;
+    }
+}

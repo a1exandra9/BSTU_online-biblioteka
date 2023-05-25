@@ -1,0 +1,177 @@
+.container {
+    padding: 13px 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+}
+
+.container__title {
+    width: 310px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: $text-color;
+    color: #000;
+}
+
+.container__price {
+    padding: 0 3px 0 0;
+    width: 118px;
+    text-align: center;
+    color: #000;
+}
+
+.container__inputs {
+    padding: 0 4px 0 0px;
+    width: 206px;
+    @include flex (center, center, nowrap);
+    gap: 0;
+}
+
+.container__button {
+    width: 40px;
+    height: 40px;
+    background: #dfba5a;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.container__input {
+    background: rgba(174, 187, 198, 0.6);
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px 0;
+    width: 66px;
+    margin: 0;
+}
+
+.container__total-price {
+    width: 181px;
+    text-align: center;
+    padding: 0px 5px 2px 0px;
+    color: #000;
+}
+
+.cost {
+    text-align: right;
+    font-family: "Inter";
+    font-style: normal;
+    @include font (400, 28px, 34px);
+    padding: 27px 36px 20px 0;
+    color: #000;
+}
+
+.total-cost {
+    padding: 0 0 0 32px;
+    color: #000;
+}
+@media (max-width: 900px) {
+    .container {
+        padding: 8px 15px 0 13px;
+        color: #000;
+    }
+
+    .container__title {
+        padding: 0 0 0 4px;
+        width: 271px;
+        @include font (400, 26px, 29px);
+        color: #000;
+    }
+
+    .container__price {
+        padding: 0px 0px 0px 8px;
+        width: 88px;
+        @include font (400, 26px, 29px);
+        color: #000;
+    }
+
+    .container__inputs {
+        padding: 0px 0px 0 2px;
+        width: 159px;
+        color: #000;
+    }
+
+    .container__total-price {
+        width: 114px;
+        font-weight: 400;
+        @include font (400, 26px, 29px);
+        padding: 0 0 0 4px;
+        color: #000;
+    }
+
+    .cost {
+        @include font (400, 26px, 29px);
+        color: #000;
+    }
+
+    .total-cost {
+        padding: 0 0 0 27px;
+        color: #000;
+    }
+
+    .cost {
+        padding: 27px 36px 34px 0;
+        color: #000;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 8px 6px 0 4px;
+        color: #000;
+    }
+
+    .container__title {
+        width: 88px;
+        @include font (500, 11px, 13px);
+        color: #000;
+    }
+
+    .container__price {
+        padding: 0;
+        @include font (500, 11px, 13px);
+        width: 34px;
+        color: #000;
+    }
+
+    .container__inputs {
+        padding: 0;
+        @include font (500, 11px, 13px);
+        width: 72px;
+        color: #000;
+    }
+
+    .container__button {
+        width: 20px;
+        height: 20px;
+        @include font (500, 11px, 13px);
+        color: #000;
+    }
+
+    .container__input {
+        padding: 3px 0;
+        @include font (500, 11px, 13px);
+        width: 32px;
+        color: #000;
+    }
+
+    .container__total-price {
+        @include font (500, 11px, 13px);
+        width: 66px;
+        padding: 0px 6px 0px 1px;
+        color: #000;
+    }
+
+    .cost {
+        text-align: right;
+        @include font (500, 12px, 15px);
+        padding: 17px 12px 17px 0;
+        color: #000;
+    }
+
+    .total-cost {
+        padding: 0 0 0 14px;
+        color: #000;
+    }
+}

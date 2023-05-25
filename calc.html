@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Treplast">
+    <meta name="description" content="Treplast">
+    <link rel="stylesheet" href="./scss/style.css">
+    <script src="./js/burger.js" defer></script>
+    <script src="./js/calc.js" defer></script>
+    <title>Treplast</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="header__width page__container">
+            <img class="header__logo" src="./img/logo.png" alt="Логотип">
+            <nav class="nav active__nav">
+                <ul class="header__links">
+                    <li class="header__link"><a href="./index.html" class="header__link-item">About us</a></li>
+                    <li class="header__link"><a href="./calc.html" class="header__link-item">Library</a></li>
+                    <li class="header__link"><a href="#" class="header__link-item">Contacts</a></li>
+                    <li class="header__link"><a href="#" class="header__link-item">Log in</a></li>
+                </ul>
+            </nav>
+            <div class="burger">
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <section class="calc page__container">
+        <div class="calc__container" id="calcul">
+            <div class="calc__menu">
+                <h4 class="calc__title calc__title-1">Название</h4>
+                <h4 class="calc__title calc__title-2">Цена</h4>
+                <h4 class="calc__title calc__title-3">Количество</h4>
+                <h4 class="calc__title calc__title-4">Стоимость</h4>
+            </div>
+
+            <div class="container">
+                <p class="container__title style">«Дети подземелья», В.Г. Короленко</p>
+                <p class="container__price style">45$</p>
+                <div class="container__inputs">
+                    <button type="button" class="container__button container__button-minuse style">-</button>
+                    <input type="number" value="1" data-price="45" class="container__input style" disabled>
+                    <button type="button" class="container__button container__button-plus style">+</button>
+                </div>
+                <p class="container__total-price style">45$</p>
+            </div>
+            <div class="container">
+                <p class="container__title style">«Бурый волк», Джек Лондон</p>
+                <p class="container__price style">65$</p>
+                <div class="container__inputs">
+                    <button type="button" class="container__button container__button-minuse style">-</button>
+                    <input type="number" value="1" data-price="65" class="container__input style" disabled>
+                    <button type="button" class="container__button container__button-plus style">+</button>
+                </div>
+                <p class="container__total-price style">65$</p>
+            </div>
+            <div class="container">
+                <p class="container__title style">«Белый пароход», Чингиз Айтматов</p>
+                <p class="container__price style">75$</p>
+                <div class="container__inputs">
+                    <button type="button" class="container__button container__button-minuse style">-</button>
+                    <input type="number" value="1" data-price="75" class="container__input style" disabled>
+                    <button type="button" class="container__button container__button-plus style">+</button>
+                </div>
+                <p class="container__total-price style">75$</p>
+            </div>
+            <div class="container">
+                <p class="container__title style">«Робинзон Крузо», Даниэль Дефо </p>
+                <p class="container__price style">35$</p>
+                <div class="container__inputs">
+                    <button type="button" class="container__button container__button-minuse style">-</button>
+                    <input type="number" value="1" data-price="35" class="container__input style" disabled>
+                    <button type="button" class="container__button container__button-plus style">+</button>
+                </div>
+                <p class="container__total-price style">35$</p>
+            </div>
+            <div class="container">
+                <p class="container__title style">«Я не тормоз», Нина Дашевская.  </p>
+                <p class="container__price style">85$</p>
+                <div class="container__inputs">
+                    <button type="button" class="container__button container__button-minuse style">-</button>
+                    <input type="number" value="1" data-price="85" class="container__input style" disabled>
+                    <button type="button" class="container__button container__button-plus style">+</button>
+                </div>
+                <p class="container__total-price style">85$</p>
+            </div>
+            <div class="container">
+                <p class="container__title style">«Рассказы о чудесном», Юнна Мориц.</p>
+                <p class="container__price style">95$</p>
+                <div class="container__inputs">
+                    <button type="button" class="container__button container__button-minuse style">-</button>
+                    <input type="number" value="1" data-price="95" class="container__input style" disabled>
+                    <button type="button" class="container__button container__button-plus style">+</button>
+                </div>
+                <p class="container__total-price style">95$</p>
+            </div>
+            <p class="cost">Итого:<span class="total-cost">525$</span></p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__width page__container">
+            <div class="footer__description">
+                <div class="footer__info">
+                    <h2 class="footer__title">Кашалова А.Г.</h2>
+                    <div class="footer__links">
+                        <a class="footer__link" href="#"><img class="footer__img" src="./extends/svg/inst.svg"
+                                alt="Инстаграм"></a>
+                        <a class="footer__link" href="#"><img class="footer__img" src="./extends/svg/figma.svg"
+                                alt="Инстаграм"></a>
+                        <a class="footer__link" href="#"><img class="footer__img" src="./extends/svg/twit.svg"
+                                alt="Инстаграм"></a>
+                        <a class="footer__link" href="#"><img class="footer__img" src="./extends/svg/pol.svg"
+                                alt="Инстаграм"></a>
+                        <a class="footer__link" href="#"><img class="footer__img" src="./extends/svg/git.svg"
+                                alt="Инстаграм"></a>
+                    </div>
+                </div>
+                <p class="footer__subtitle footer__subtitle-tel">Студент группы ЭМ-3, +375 (29) 985-76-98</p>
+                <p class="footer__subtitle footer__subtitle-location">г.Брест ул.Ясная д.157</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
