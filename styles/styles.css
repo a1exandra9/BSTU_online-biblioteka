@@ -1,0 +1,165 @@
+@media (max-width: 900px) {
+    .calc {
+        margin: 23px auto 41px auto;
+    }
+    .calc__container {
+        max-width: 746px;
+    }
+    .calc__menu {
+        padding: 15px 13px 12px 17px;
+    }
+    .calc__title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .calc__title-1{
+        width: 271px;
+        padding: 0;
+    }
+    .calc__title-2{
+        width: 88px;
+        text-align: center;
+    }
+    .calc__title-3{
+        width: 159px;
+        padding: 0;
+        text-align: center;
+    }
+    .calc__title-4{
+        width: 114px;
+        padding: 0;
+        text-align: center;
+    }
+    .container {
+        padding: 8px 15px 0 13px;
+    }
+    .style{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 34px;
+        color: #000000;
+    }
+    .container__title {
+        padding: 0 0 0 4px;
+        width: 271px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .container__price {
+        padding: 0px 0px 0px 8px;
+        width: 88px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .container__inputs {
+        padding: 0px 0px 0 2px;
+        width: 159px;
+    }
+    .container__total-price {
+        width: 114px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;        
+        padding: 0 0 0 4px;
+    }
+    .cost{
+        font-size: 24px;
+        line-height: 29px;     
+    }
+    .total-cost {
+        padding: 0 0 0 27px;
+    }
+    .cost{
+        padding: 27px 36px 34px 0;
+    }
+}
+
+
+@media (max-width: 500px) {
+    
+.calc {
+    margin: 15px auto 19px auto;
+}
+.calc__container {
+    max-width: 316px;
+    border-radius: 12px;
+}
+.calc__menu {
+    padding: 12px 8px 3px 4px;
+}
+.calc__title {
+    font-size: 12px;
+    line-height: 15px;
+}
+.calc__title-1{
+    width: 88px;
+    padding: 0 0px 0px 2px;
+}
+.calc__title-2{
+    width: 34px;
+    padding: 0px 0 0px 2px;
+    text-align: center;
+}
+.calc__title-3{
+    width: 72px;
+    padding: 0 0px 0 1px;
+    text-align: center;
+}
+.calc__title-4{
+    width: 66px;
+    padding: 0 4px 0 0;
+    text-align: center;
+}
+.container {
+    padding: 8px 6px 0 4px;
+}
+.container__title {
+    width: 88px;
+    font-size: 11px;
+    line-height: 13px;
+}
+.container__price {
+    padding: 0;
+    font-size: 11px;
+    line-height: 13px;
+    width: 34px;
+}
+.container__inputs {
+    padding: 0;
+    font-size: 11px;
+    line-height: 13px;
+    width: 72px;
+}
+.container__button {
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.container__input {
+    padding: 3px 0;
+    font-size: 11px;
+    line-height: 13px;
+    width: 32px;
+}
+.container__total-price {
+    font-size: 11px;
+    line-height: 13px;
+    width: 66px;
+    padding: 0px 6px 0px 1px;
+}
+
+
+.cost {
+    text-align: right;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 17px 12px 17px 0;
+}
+
+.total-cost{
+    padding: 0 0 0 14px;
+}
+}

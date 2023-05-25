@@ -1,0 +1,17 @@
+@mixin font ($fontWeight, $fontSize, $lineHeight){
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: $fontWeight;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    color: #cde1f0;
+}
+
+@mixin flex ($justify, $align, $wrap) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+}
+
+

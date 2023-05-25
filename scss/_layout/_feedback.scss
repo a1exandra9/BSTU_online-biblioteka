@@ -1,0 +1,126 @@
+
+.feedback {
+    position: relative;
+    min-height: 624px;
+}
+
+.feedback__img {
+    position: absolute;
+    background-image: url(../../img/fonn.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+.feedback__container {
+    width: 450px;
+    position: absolute;
+    top: 133px;
+    left: 54px;
+}
+
+.feedback__title {
+    margin: 0 auto;
+    max-width: 450px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    text-align: start;
+
+    color: #0C3C04;
+}
+
+.feedback__form {
+    margin: 13px 0 0 0;
+    @include flex (center, baseline, wrap); 
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.feedback__field {
+    @include font (400, 20px, 40px);
+    width: 100%;
+    padding: 3px 20px;
+    border: 2px solid #0C3C04;
+    display: block;
+    overflow: visible;
+    color: #0C3C04;
+    transition: 1s all;
+
+    &::placeholder {
+        color: #0C3C04;
+    }
+}
+    
+.feedback__message {
+    height: 100px;
+    resize: none;
+}
+
+.feedback__field:focus {
+    border-color: rgba(66, 98, 123, 0.8);
+    outline: none;
+}
+.feedback__button{
+    margin: 0;
+}
+@media (max-width: 900px) {
+    .feedback {
+        min-height: 468px;
+    }
+
+    .feedback__img {
+        background-image: url(../extends/jpg/fonforcvazi.jpg);
+    }
+
+    .feedback__container {
+        max-width: 363px;
+        position: absolute;
+        top: 53px;
+        right: 33px;
+    }
+
+    .feedback__form {
+        margin: 22px 0 0 0;
+    }
+
+    .feedback__form-form {
+        max-width: 349px;
+    }
+}
+@media (max-width: 520px) {
+    .feedback {
+        min-height: 400px;
+    }
+
+    .feedback__img {
+        background-image: url(../extends/jpg/feedbackfon.jpg);
+    }
+
+    .feedback__container {
+        max-width: 310px;
+        position: absolute;
+        top: 21px;
+        right: 5px;
+    }
+
+    .feedback__title {
+        margin: 0;
+        padding: 0 0 0 5px;
+        max-width: 450px;
+        text-align: start;
+    }
+
+    .feedback__form {
+        margin: 17px 0 0 0;
+        gap: 20px 0;
+    }
+}
